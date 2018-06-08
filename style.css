@@ -7,16 +7,16 @@ body {
 }
 /* DEMO-SPECIFIC STYLES */
   .typewriter h2 {
-    color: black;
+    color: rgb(54, 126, 148);
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid black; /* The typwriter cursor */
+    border-right: .55em solid black; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
       typing 4.5s steps(30, end),
-      blink-caret .8s step-end infinite;
+      blink-caret 1.0s step-end infinite;
   }
   
   /* The typing effect */
@@ -35,8 +35,7 @@ body {
     margin-top:0;
     overflow:hidden;
     background:#e0ebe8;
-    padding-bottom: 250px;
-    margin-top: 70px;
+    padding-bottom: 270px;
    }
 @media (min-width:992px) {
 
@@ -53,9 +52,11 @@ hr {
     height: 3px;
     background: #333A40;
 }
-body {
-    /* background-color: #636363; */
-}
+.sticky {
+    position: sticky;
+    top: 10px; /* When the element reaches top: 10px, it becomes fixed. */
+    z-index: 100;
+  }
 .panel > .panel-heading {
     /* background-color: #4c5f6e; */
 }
@@ -72,9 +73,13 @@ body {
 h1 {
     color: black;
     font-size: 450%;
+    margin-top: 180px;
 }
 h2 {
     color: #ff3333;
+}
+#about {
+    margin-top: 100px;
 }
 footer {
     color: white;
