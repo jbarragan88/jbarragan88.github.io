@@ -52,11 +52,12 @@ hr {
     height: 3px;
     background: #333A40;
 }
-.sticky {
-    position: sticky;
-    top: 10px; /* When the element reaches top: 10px, it becomes fixed. */
-    z-index: 100;
-  }
+li {
+    /* margin-right: 100px; */
+}
+a {
+    color: white;
+}
 .panel > .panel-heading {
     /* background-color: #4c5f6e; */
 }
@@ -80,6 +81,9 @@ h2 {
 }
 #about {
     margin-top: 100px;
+}
+.hiden {
+    color: white;
 }
 footer {
     color: white;
