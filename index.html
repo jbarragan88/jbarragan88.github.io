@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jonathan Barragan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <script src="main.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
@@ -63,6 +62,9 @@
                     <li class="nav-item ">
                         <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                     </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#languages">Languages & Frameworks <span class="sr-only">(current)</span></a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Accounts</a>
                     </li>
@@ -95,17 +97,54 @@
 
             <div class="row center_item">
                 <div class="col">
-                    <h2 id="about" class="hiden">About</h2>
-                    <h2 class="text-center">About</h2>
+                    <h2 id="aboutt" class="text-center">About</h2>
                 </div>
                 <div class="col">
-                    <p>A Chicago native, who enjoys learning new ways to make a task easier.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu metus justo. Pellentesque ut varius risus. Etiam facilisis, lacus sit amet mollis aliquet, tellus eros vestibulum neque, eget tristique dolor justo eu ligula. Suspendisse et cursus risus. Mauris porttitor ultricies tortor non finibus. Donec augue lectus, porttitor vitae posuere eu, fringilla vel massa. Maecenas nec tincidunt nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent erat magna, tempor nec mattis sed, luctus ac augue. Phasellus non sem vel quam mollis facilisis in et leo. Integer elementum posuere ante, a molestie libero pretium in. Sed vestibulum est a nibh iaculis, non sagittis neque elementum.
+                    <p id="about"></p>
+                    <p>
+                        A Chicago native, who enjoys learning new things, especially when it comes to both programming and desgin.
+                        I grew up in part of Chicago's SouthWest Side in a hugely Mexican community due to my Mexican roots.
+
                     </p>
                     <p>
+                        Currently seeking work in Web Development. From Front-End to Back-End Development.
                         Cras tincidunt lacus vitae augue maximus porta. Suspendisse non justo a quam eleifend tincidunt eu non metus. In volutpat ante eget ligula convallis, laoreet bibendum purus consectetur. Fusce quam lorem, consequat vel scelerisque vestibulum, sagittis et ipsum. In hac habitasse platea dictumst. Donec imperdiet lectus quis orci tempus, nec lacinia ante sagittis. Duis rhoncus lobortis sapien a accumsan. Maecenas convallis rutrum bibendum. Maecenas commodo blandit ultricies. Integer posuere dolor eleifend, vehicula diam in, imperdiet mi. Praesent tincidunt lacus a iaculis placerat. Suspendisse potenti. Curabitur at lacinia erat. Nullam sodales ligula felis, gravida rutrum libero scelerisque sed. Nam diam mauris, elementum vitae tempor et, lacinia non sem. Nunc eget venenatis elit. 
                     </p>
                 </div>
+            </div>
+
+            <div class="row center_item">
+                <p id="languages"></p>
+                    <div class="col">
+                        <h2 id="languagess" class="text-center">Language & Frameworks</h2>
+                    </div>
+                    <div class="col">
+                            <div class="row align-items-start">
+                                <div class="col" align="center">
+                                    <a href="https://github.com/jbarragan88"><img src="images/html-5.svg" class="img-fluid" width="170" alt="GitHub_Logo"></a>
+                                </div>
+                                <div class="col" align="center">
+                                    <a href="https://www.linkedin.com/in/jonathan-barragan"><img src="images/css-3.svg" class="img-fluid" width="170" alt="LinkedIn_Logo"></a>
+                                </div>
+                                <div class="col" align="center">
+                                    <a href="https://www.linkedin.com/in/jonathan-barragan"><img src="images/JavaScript.svg" class="img-fluid" width="170" alt="LinkedIn_Logo"></a>
+                                </div>
+                            </div>
+                            <div class="row align-items-start">
+                                <div class="col" align="center">
+                                    <a href="https://www.linkedin.com/in/jonathan-barragan"><img src="images/python.svg" class="img-fluid" width="110" alt="LinkedIn_Logo"></a>
+                                </div>
+                                <div class="col" align="center">
+                                    <a href="https://www.linkedin.com/in/jonathan-barragan"><img src="images/nodejs.svg" class="img-fluid" width="170" alt="LinkedIn_Logo"></a>
+                                </div>
+                                <div class="col" align="center">
+                                    <a href="https://www.linkedin.com/in/jonathan-barragan"><img src="images/mysql.svg" class="img-fluid" width="170" alt="LinkedIn_Logo"></a>
+                                </div>
+                                <div class="col" align="center">
+                                    <a href="https://www.linkedin.com/in/jonathan-barragan"><img src="images/angularjs.svg" class="img-fluid" width="170" alt="LinkedIn_Logo"></a>
+                                </div>
+                            </div>
+                        </div>
             </div>
 
             <!-- <div class="panel panel-default">
@@ -127,18 +166,19 @@
             </div> -->
 
             <div class="row center_item">
+                <p id="portfolio"></p>
                 <div class="col">
-                    <div class="row align-items-start">
-                        <div class="col" align="center">
-                            <a href="https://github.com/jbarragan88"><img src="images/git.svg" class="img-fluid" width="170" alt="GitHub_Logo"></a>
-                        </div>
-                        <div class="col" align="center">
-                            <a href="https://www.linkedin.com/in/jonathan-barragan"><img src="images/linked.svg" class="img-fluid" width="170" alt="LinkedIn_Logo"></a>
-                        </div>
-                    </div>
+                    <h2 id="accounts" class="text-center">Accounts</h2>
                 </div>
                 <div class="col">
-                    <h2 id="portfolio" class="text-center">Accounts</h2>
+                        <div class="row align-items-start">
+                            <div class="col" align="center">
+                                <a href="https://github.com/jbarragan88"><img src="images/git.svg" class="img-fluid" width="170" alt="GitHub_Logo"></a>
+                            </div>
+                            <div class="col" align="center">
+                                <a href="https://www.linkedin.com/in/jonathan-barragan"><img src="images/linked.svg" class="img-fluid" width="170" alt="LinkedIn_Logo"></a>
+                            </div>
+                        </div>
                 </div>
             </div>
 
@@ -163,18 +203,19 @@
             </div> -->
 
             <div class="row center_item">
+                <p id="contact"></p>
                 <div class="col">
-                    <h2 id="contact" class="text-center">Contact</h2>
+                    <h2 id="contactt" class="text-center">Contact</h2>
                 </div>
                 <div class="col">
                     <div class="row">
                         <div class="col" align="center">
                             <h3>Email:</h3>
-                            <p>jonathanbarragan88@yahoo.com</p>
+                            <button><a href="mailto:jonathanbarragan88@yahoo.com" style="color: white">jonathanbarragan88@yahoo.com</a></button>
                         </div>
                         <div class="col" align="center">
                             <h3>Phone:</h3>
-                            <p>(773) 816-4230</p>
+                            <button><a href="tel:773-816-4230" style="color: white">(773) 816-4230</a></button>
                         </div>
                     </div>
                 </div>
