@@ -94,6 +94,14 @@ h2 {
 #contactt {
     font-size: 50px;
 }
+#location {
+    font-size: 50px;
+}
+.chicago {
+    font-size: 25px;
+    color: 555555;
+    margin: 33px 0 0 170px;
+}
 button {
     border: none;
     background-color: #555555;
