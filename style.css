@@ -112,6 +112,39 @@ button {
 .hiden {
     color: white;
 }
+.window_top {
+    height: 40px;
+    background-color: lightgray;
+    padding: 10px;
+}
+.red {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.orange {
+    height: 10px;
+    width: 10px;
+    background-color: orange;
+    display: inline-block;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.green{
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 20px;
+}
+.window_body {
+    background-color: black;
+    padding: 15px;
+    color: green;
+}
 footer {
     color: white;
     /* background-color: #333A40; */
