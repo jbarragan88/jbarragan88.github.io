@@ -55,8 +55,12 @@ hr {
 li {
     /* margin-right: 100px; */
 }
-a {
+/*a {
     color: white;
+} */
+.nav-link {
+    color: green;
+    font-size: 25px;
 }
 .panel > .panel-heading {
     /* background-color: #4c5f6e; */
@@ -79,7 +83,7 @@ h1 {
 h2 {
     color: #ff3333;
 }
-#aboutt {
+#about {
     margin-top: 130px;
     font-size: 50px;
 }
@@ -100,7 +104,8 @@ h2 {
 .chicago {
     font-size: 25px;
     color: 555555;
-    margin: 33px 0 0 170px;
+    /*margin: 33px 0 0 170px;*/
+    text-align: center;
 }
 button {
     border: none;
