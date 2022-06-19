@@ -1,12 +1,59 @@
+
+@media only screen and (max-width: 1645px) and (min-width: 1160px) {
+    .typewriter {
+        width: 82%;
+        margin-left: 130px !important;
+    } 
+}
+@media only screen and (max-width: 1159px) and (min-width: 996px) {
+    .typewriter {
+        width: 85%;
+        margin-left: 88px !important;
+    } 
+    .typewriter h2 {
+        font-size: 2.5vw !important;
+    }
+}
+@media only screen and (max-width: 995px) and (min-width: 768px) {
+    .typewriter {
+        width: 95%;
+        margin-left: 20px !important;
+    } 
+    .typewriter h2 {
+        font-size: 2.4vw !important;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 500px) {
+    .typewriter {
+        width: 95%;
+        margin-left: 25px !important;
+    } 
+    .typewriter h2 {
+        font-size: 2.2vw !important;
+    }
+
+  }
+@media only screen and (max-width: 499px) {
+    .typewriter {
+        width: 95%;
+        margin-left: 10px !important;
+    } 
+    .typewriter h2 {
+        font-size: 2.5vw !important;
+    }
+
+}
 body {
     margin: 0 20px 0 20px;
 }
 .typewriter {
-    display: inline-flex;
-    margin-left: 210px;
+    /*display: inline-block;*/
+    /*margin-left: 210px;*/
 }
 /* DEMO-SPECIFIC STYLES */
   .typewriter h2 {
+    width: 85%;
+    font-size: 2vw;
     color: rgb(54, 126, 148);
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -22,7 +69,7 @@ body {
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 85% }
   }
   
   /* The typewriter cursor effect */
